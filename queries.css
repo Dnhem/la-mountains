@@ -1,0 +1,108 @@
+/* 
+544px and below (mobile phones) 
+Accordion for tabs active at this breakpoint
+*/
+@media (max-width: 544px) {
+  .history-text {
+    margin-top: -50px;
+  }
+
+  .history-description {
+    padding-right: 100px;
+    margin-top: -50px;
+  }
+
+  .accordion {
+    display: block;
+  }
+
+  .climb-text-container {
+    overflow: hidden;
+    height: 30%;
+  }
+
+  .climb-description {
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    margin-top: -150px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    position: static;
+  }
+  .mountain-nav {
+    display: none;
+  }
+
+  .mountain-1-section {
+    display: none;
+  }
+
+  .mountain-2-section {
+    display: none;
+  }
+  /* Display accordion */
+}
+
+/* Breakpoint for tabs */
+@media (min-width: 545px) {
+  .mountain-nav {
+    display: flex;
+    position: static;
+  }
+}
+
+/* 
+below 1424px (smaller desktops) 
+*/
+@media (max-width: 1424px) {
+  .text-container {
+    height: 100%;
+  }
+
+  .history-heading {
+    display: none;
+  }
+
+  .history-text {
+    margin-left: -455px;
+  }
+
+  .history-description {
+    margin-left: -400px;
+  }
+
+  .climb-text-container {
+    overflow: hidden;
+    height: 30vh;
+  }
+
+  .climb-heading {
+    display: none;
+  }
+
+  .climb-header {
+    height: 100%;
+    margin-right: 400px;
+  }
+
+  .climb-text {
+    margin-left: 215px;
+    position: static;
+  }
+
+  .climb-description {
+    margin-right: 100px;
+  }
+}
+
+/* 
+above 1470px Widescreens 
+*/
+@media (min-width: 1470px) {
+  .history-heading {
+    margin-left: -1200px;
+  }
+  .climb-heading {
+    margin-left: -1200px;
+  }
+}

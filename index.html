@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rambla&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./queries.css">
+  <link rel="shortcut icon" type="image/png" href="assets/logo.png">
+  <title>LA Mountains</title>
+</head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav-bar">
+          <div class="logo">
+            <img class="mountain-logo" src="/assets/logo.png" alt="mountain-logo">
+            <img class="la-mountains-text" src="/assets/scroll-logo.png" alt="los-angeles-mountains-text">
+          </div>
+          <div>
+            <ul class="nav-links">
+              <li>
+                <a class="nav-link-history" href="#history">01. HISTORY</a>
+              </li>
+              <li>
+                <a class="nav-link-team" href="#climb">02. TEAM</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+      </header>
+
+      <main>
+        <section class="history-section" id="history">
+          <div class="text-container">
+            <div class="history-heading-text">
+              <h2 class="history-heading">01.</h2>
+              <span class="history-text">history</span>
+            </div>
+            <div class="history-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptate hic sint id, deserunt facilis, corporis dolorem consequuntur rem, sequi ea. Veritatis quod totam nisi dolorum pariatur et ratione consequatur.
+              Quidem dicta quam hic, et sequi sint. Tempore.
+            </div>
+          </div>
+        </section>
+
+        <div class="history-section carousel-container">
+          <div class="owl-carousel owl-theme carousel-image-container">
+            <div class="carousel-item slide slide-1">
+              <img class="carousel-img" src="./assets/hiker-solo.png" alt="lone-hiker">
+            </div>
+            <div class="carousel-item slide slide-2">
+              <img class="carousel-img" src="./assets/misty_mountain.png" alt="misty_mountain">
+            </div>
+            <div class="carousel-item slide slide-3">
+              <img class="carousel-img" src="./assets/hiker-solo-2.png" alt="lone-hiker">
+            </div>
+            <div class="carousel-item slide slide-4">
+              <img class="carousel-img" src="./assets/misty_mountain-2.png" alt="misty_mountain">
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="climb-text-container" id="climb">
+        <div class="climb-header">
+            <h2 class="climb-heading">02.</h2>
+            <span class="climb-text">climb</span>
+        </div>
+        <div class="climb-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptate hic sint id, deserunt facilis, <br> corporis dolorem consequuntur rem, sequi ea. Veritatis quod totam nisi dolorum pariatur.
+        </div>
+      </div>
+
+      <!-- Accordion -->
+      <div class="accordion">
+        <div class="mountain-tab">
+          <input type="checkbox" name="mountain-accordion" id="mountain-1" class="input">
+          <label for="mountain-1" class="accordion-label">MOUNTAIN 1</label>
+          <div class="content">
+            <img class="accordion-mountain-1" src="./assets/section-3.png" alt="">
+          </div>
+        </div>
+        <div class="mountain-tab">
+          <input type="checkbox" name="mountain-accordion" id="mountain-2" class="input">
+          <label for="mountain-2" class="accordion-label">MOUNTAIN 2</label>
+          <div class="content">
+            <img class="accordion-mountain-2" src="./assets/mountain-2.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="mountain-nav">
+        <div>
+          <a  class="mountain-1-link" href="#mountain-1-section">MOUNTAIN 1</a>
+        </div>
+        <div>
+          <a  class="mountain-2-link" href="#mountain-2-section">MOUNTAIN 2</a>
+        </div>
+      </div>
+
+      <section class="mountain-1-section" id="mountain-1-section"></section>
+    
+      <section class="mountain-2-section" id="mountain-2-section"></section>
+
+      <footer>
+        <div class="logo">
+          <img src="./assets/logo.png" alt="la-mountain-logo">
+          <img class="la-mountain-text" src="./assets/scroll-logo.png" alt="la-mountain-text">
+        </div>
+        <div class="copyright">
+          <span class="copyright-text">copyright 2016. all rights reserved.</span>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
